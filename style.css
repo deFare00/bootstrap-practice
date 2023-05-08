@@ -1,0 +1,47 @@
+body {
+    background-color: #3C486B;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.navbar {
+    background-color: #3C486B;
+}
+
+.dropdown-menu {
+    background-color: #3C486B;
+}
+
+.dropdown-menu a:hover {
+    background-color: #210062;
+}
+
+.carousel-inner {
+    height: 800px;
+}
+
+.carousel-item {
+    object-fit: contain;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    max-height: 800px;
+}
+
+.container h2 {
+    margin: 20px;
+}
+
+.card-img {
+    object-fit: cover;
+    height: 400px;
+}
+
+.card-img-overlay p {
+    width: 425px;
+}
