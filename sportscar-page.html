@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        .card-img-top {
+            height: 500px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand text-light" href="#">DEFCAR</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-light" href="sportscar-page.html">Sports Car</a></li>
+                  <li><a class="dropdown-item text-light" href="suv-page.html">SUV</a></li>
+                  <li><a class="dropdown-item text-light" href="coupe-page.html">Coupe</a></li>
+                  <li><a class="dropdown-item text-light" href="wagon-page">Wagon</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-light" href="#">Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Cari mobil apa?" aria-label="Search">
+              <button class="btn btn-outline-primary text-light" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav m1-auto ms-4">
+                <li class="nav-item"><a class="nav-link text-light" href="#">Masuk</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="#">Daftar</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <main class="container mt-5 text-light">
+        <h1>Sports Car Catalogue</h1>
+        <p>Looking to buy your new sports car? We can help you find references and get the best price for your new vehicle.</p>
+        <h2>Car Catalogue</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="assets/chevrocamaro.avif" class="card-img-top" alt="Car 1">
+              <div class="card-body">
+                <h5 class="card-title">Chevrolet Camaro</h5>
+                <p class="card-text">The Chevrolet Camaro is a mid-size American automobile manufactured by Chevrolet, classified as a pony car. It first went on sale on September 29, 1966, for the 1967 model year and was designed to compete with the Ford Mustang.</p>
+                <a href="#" class="btn btn-primary">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="assets/gallardo.avif" class="card-img-top" alt="Car 2">
+              <div class="card-body">
+                <h5 class="card-title">Lamborghini Huracán</h5>
+                <p class="card-text">The Lamborghini Huracan dimensions vary slightly depending on the variant, but generally fall within the same range. The length ranges from 4459mm to 4549mm.<p>
+                <a href="#" class="btn btn-primary">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="assets/merceamggtr.avif" class="card-img-top" alt="Car 3">
+              <div class="card-body">
+                <h5 class="card-title">Mercedes AMG GTR</h5>
+                <p class="card-text">The AMG 4.0-litre V8 biturbo in the AMG GT R Roadster delivers an output of 430 kW (585 hp) and maximum torque of 700 Nm. This is available over a wide engine speed range from 2100 to 5500 rpm.</p>
+                <a href="#" class="btn btn-primary">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="assets/corvette.avif" class="card-img-top" alt="Car 4">
+              <div class="card-body">
+                <h5 class="card-title">Chevrolet Corvette</h5>
+                <p class="card-text">The Chevrolet Corvette is a line of two-door, two-seater luxury sports cars, manufactured and marketed by G.M., under the Chevrolet marque, since 1953. United States: Flint, Michigan 1953.</p>
+                <a href="#" class="btn btn-primary">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <h2>Contact Us</h2>
+        <p>Fill out the form below to get in touch with us:</p>
+        <form>
+          <!-- Form fields -->
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </form>
+    </main>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+          <span class="text-muted">&copy; 2023 DEFCAR</span>
+        </div>
+    </footer>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

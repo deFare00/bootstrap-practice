@@ -1,3 +1,6 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
 body {
     background-color: #3C486B;
 }
@@ -16,21 +19,6 @@ body {
 
 .dropdown-menu a:hover {
     background-color: #210062;
-}
-
-.carousel-inner {
-    height: 800px;
-}
-
-.carousel-item {
-    object-fit: contain;
-    max-height: 100%;
-    margin: 0 auto;
-}
-
-.carousel-item img {
-    object-fit: cover;
-    max-height: 800px;
 }
 
 .container h2 {
