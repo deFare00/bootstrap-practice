@@ -33,3 +33,7 @@ body {
 .card-img-overlay p {
     width: 425px;
 }
+
+.navbar a:hover {
+    border-bottom: 1px solid burlywood;
+}
